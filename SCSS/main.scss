@@ -1,0 +1,335 @@
+/* Img lúpulos */
+.lup{
+    padding: 25px;
+    background: url(../Assets/Img/lupulos.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100rem;     
+}
+
+
+/* Img Cacho. SE OPACITY CUANDO HAGO SCROLL PERO COMO SE HACE CON JS NO SUCEDERÁ*/
+.imgCa{
+    margin-left: 27%;
+    opacity: 0.7;
+}
+.link{
+    text-decoration: none;
+}
+
+
+/* Menú Navegación */
+ul{
+    margin-left: 22%;
+    margin-top: 2%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 102%;
+}
+li{
+    display: inline-block;
+    position: relative;
+    width: 15%;
+}
+nav{
+    position: sticky;
+    top: 0;
+}
+.a:hover{
+    background-color: cadetblue;
+    color: cornsilk;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.scale:hover {
+    transform: scale(1.1,1);
+}
+
+
+/*Promos */
+.coso{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+span{
+    position: absolute;
+    top: 370px;
+    right: 95px;
+}
+
+
+/* Promos destacadas/Index */
+.span1{
+    position: absolute;
+    top: 385px;
+    right: 95px;
+}
+.span2{
+    position: absolute;
+    top: 200px;
+    right: 70px;
+}
+
+
+/* Contacto */
+
+form > div {
+    flex-direction: column;
+}
+form{
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 17%;
+    padding: 1rem;
+}
+.h2{
+    margin-left: -53%;
+}
+
+
+/* Carousel */
+.carousel-item{
+    width: 100%;
+    height: 350px;
+    margin-left: 10%;
+    margin-top: 120px;
+}
+#carouselExampleControls{
+    width: 90%;
+    height: 400px;
+      
+}
+
+
+/* Membresía */
+.p{
+    color: rgb(22, 20, 15);
+    padding: 1px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*Promos Destacadas Card*/
+.col{
+    height: -20px !important;
+    width: 200px !important;
+    margin-top: 20px !important;
+  }
+
+.card-title{
+    color: #06357a;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+  
+.card-text{
+    color: black;
+    font-size: 12px;
+    margin-left: -33px;
+    margin-top: -25px;
+    margin-bottom: -30px;
+}
+  
+.bot{
+    font-size: 10px;
+    margin-left: 100px;
+    margin-bottom: -20px;
+}
+  
+.row{
+    display: flex;
+    justify-content: space-evenly;   
+}
+
+/*Log in, carrito y search*/
+.fas{
+    margin-left: -260px;
+}
+
+/*Img Vasos*/
+.imgVasos{
+    margin-left: 28%;
+    margin-top: 10%;
+}
+
+
+/*Img Temperaturas*/
+.temperaturas{
+    margin-left: 28%;
+    margin-top: 10%;
+}
+
+
+/*Footer*/
+.pfooter{
+    color: grey;
+    margin-left: 35%;
+    margin-bottom: 0;
+}
+.fa-instagram{
+    margin-left: 48%;
+    margin-top: 20%;
+}
+
+
+/* h2 Promos destacadas/Index - Comunidad cervecera/Membresía - Promociones/Contacto*/
+.destacadas{
+    color: rgb(211, 159, 16);
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20%;
+}
+
+
+/* Promos destacadas/Index - Promos */
+.vw{
+    width: 20vw;  
+}
+.lol{
+    display: flex;
+    margin-left: 5%;   
+}
+.parrafo{
+    background-color: black;
+    opacity: 0.6;
+}
+.promos{
+    display: flex;
+    justify-content: space-evenly;
+}
+.promo{
+    display: inline-block;
+}
+.pi{
+    position: relative;
+}
+.ye{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 500px 500px 500px;
+    gap: 15px 30px;    
+}
+.celda1{
+    grid-column: 1;
+    grid-row: 1;
+}
+.celda2{
+    grid-column: 2;
+    grid-row: 1;
+}
+.celda3{
+    grid-column: 3;
+    grid-row: 1;
+}
+.celda4{
+    grid-column: 1;
+    grid-row: 2;
+}
+.celda5{
+    grid-column: 2;
+    grid-row: 2;
+}
+.celda6{
+    grid-column: 3;
+    grid-row: 2;
+}
+
+
+/* h2/Ubicación - h3/Membresía - h2/Promos - h3/Index */
+.haches3{
+    color: cadetblue;
+    margin-top: 150px;
+}
+
+
+/* Index - Ubicación - Membresía - Promos */
+p{
+    color: wheat;
+    padding: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* Index - Promo - Contacto - Ubicación - Membresía*/
+.le{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* Estilo tablet*/
+@media (max-width:768px) {
+    /* Promos destacadas/Index - Promos */
+    .celda1{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .celda2{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .celda3{
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    /* Promos destacadas/Index */
+    .span1{
+        position: absolute;
+        top: 540px;
+        left: 130px;
+    }
+    .span2{
+        position: absolute;
+        top: 505px;
+        left: 138px;
+    }
+    .span3{
+        position: absolute;
+        top: 525px;
+        left: 135px;
+    }
+
+    /* Menú Navegación */
+    ul{
+        margin-left: 10%;
+    }
+
+    /* Img Cacho*/
+    .imgCa{
+        margin-left: 10%;
+    }
+
+    /* Footer*/
+    .pfooter {
+        color: grey;
+        margin-left: 25%;
+        margin-bottom: 0;
+    }
+
+    /*Img Vasos*/
+    .imgVasos{
+        margin-left: 11%;
+        margin-top: 10%;
+    }
+
+    /*Img Temperaturas*/
+    .temperaturas{
+        margin-left: 10.3%;
+        margin-top: 10%;
+}
+
+    /*Log in, carrito y search*/
+    .fas{
+        margin-left: -150px;
+    }
+
+    /* Contacto */
+    .news{
+        border-radius: 10px;
+        padding: 1rem;
+    }
+}

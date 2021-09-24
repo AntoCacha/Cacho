@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cacho | Contacto</title>
+        <link rel="icon" type="image/png" href="../Assets/Img/Cacho.png">
+        <link rel="stylesheet" href="../Assets/Boostrap/bootstrap.css">
+        <link rel="stylesheet" href="../CSS/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <meta name="description" content="Página web de venta de cervezas multimarcas.">
+        <meta name="keywords" content="Cerveza, Birra, Promociones, Almacén, Corona, Stella Artoise, Descuentos, Pack, Patagonia">
+    </head>
+
+    <!--Log in, carrito y search-->    
+    <nav class="navbar bg-light">
+        <div class="container-fluid">
+          <i class="far fa-user-circle"></i>
+          <i class="fas fa-shopping-cart"></i>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+    </nav>
+
+    <body class="lup">
+
+        <!--Img Cacho-->
+        <nav>
+            <ul class="imgCa link">
+                <li><a title="" href="../index.html"><img class="img" src="../Assets/Img/El-Cacho.png" alt="Logo" /></a></li>
+            </ul>
+        </nav>
+         
+        <!--Menú-->
+        <nav class="scale"> 
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../Paginas/promos.html">Promos</a></li>
+                <li><a href="../Paginas/ubicacion.html">Ubicacion</a></li>
+                <li><a href="../Paginas/contacto.html">Contacto</a></li>
+                <li><a href="../Paginas/membresia.html">Membresia</a></li>         
+            </ul>       
+        </nav>
+        
+        <!--Formulario de contacto-->
+        <main>           
+            <h2 class="destacadas h2">Contacto</h2>
+        
+            <form class="le form">
+                <div>
+                    <legend>Formulario de contacto</legend>                            
+                    <div>
+                        <label for="Nombre"><b>Nombre</b></label>
+                        <input type="text" name="Nombre" placeholder="Nombre">
+                    </div>
+                        
+                    <div>
+                        <label for="apellido"><b>Apellido</b></label>
+                        <input type="text" name="Apellido" placeholder="Apellido">
+                    </div>
+                            
+                    <div>
+                        <label for="Estado civil"><b>Estado civil</b></label>
+                        <select name="Estado civil">
+                        <option value="Soltero">Soltero/a</option>
+                        <option value="Casado">Casado/a</option>
+                        <option value="Divorciado">Divorciado/a</option>
+                        <option value="Viudo">Viudo/a</option>
+                        </select>
+                    </div>
+                            
+                    <div>
+                        <label for="E-mail"><b>E-mail</b></label>
+                        <input type="email" name="E-mail" placeholder="E-mail">
+                    </div>
+                            
+                    <div>
+                        <label for="Comentarios"><b>Dejar comentario</b></label><br>
+                        <textarea name="Comentario" cols="30" rows="10" placeholder="Ingresar Comentario"></textarea><br>
+                    </div>           
+                            
+                    <div>
+                        <input type="reset" value="Borrar">
+                        <input type="submit" value="Enviar">
+                    </div>                   
+                </div>
+            </form>         
+        </main>
+
+         <!--Footer-->
+        <footer>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-whatsapp"></i>
+            <p class="pfooter">@ Copyright 2021 Cacho Almacén de birras.</p>
+        </footer>
+
+        <script src="../Cacho/Assets/Js/bootstrap.js"></script>
+    </body>    
+</html> 

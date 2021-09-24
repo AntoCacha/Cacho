@@ -1,0 +1,733 @@
+@charset "UTF-8";
+
+/* Estilo mobile*/
+@media (min-width: 320px) {
+
+  /* Img lúpulos */
+  .lup {
+    padding: 25px;
+    background: url(../Assets/Img/lupulos.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100rem; }
+
+  /* Img Cacho*/
+  .imgCa {
+    margin-left: -15%;
+    opacity: 0.7; }
+  .link {
+    text-decoration: none; }
+  .img{
+    width: 300px;}
+
+  /* Menú Navegación */
+  ul {
+    margin-left: -15%;
+    margin-top: 2%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 73%; }
+      
+  li {
+    display: inline-block;
+    position: relative;
+    width: 19%; }
+      
+  nav {
+    position: sticky;
+    top: 0; }
+      
+  .a:hover {
+    background-color: cadetblue;
+    color: cornsilk;
+    padding: 5px; }
+      
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold; }
+      
+  .scale:hover {
+    transform: scale(1.1, 1); }
+
+  /*Promos */
+  .coso {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+  span {
+    position: absolute;
+    top: 370px;
+    right: 95px; }
+
+  /* Promos destacadas/Index */
+  .span1 {
+    position: absolute;
+    top: 540px;
+    left: 130px; }
+  .span2 {
+    position: absolute;
+    top: 505px;
+    left: 138px; }
+  .span3 {
+    position: absolute;
+    top: 525px;
+    left: 135px; }
+
+  /* Contacto */
+  form > div {
+    flex-direction: column; }
+      
+  .form {
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 17%;
+    padding: 1rem; }
+      
+  .h2 {
+    margin-left: -53%; }
+
+  /* Ubicacion*/
+  iframe {
+    width: 100;
+    height: 50;
+  }
+  
+  /* Membresía */
+  .p {
+    color: #16140f;
+    padding: 1px;
+    font-size: 15px;
+    font-weight: bold; }
+  .forme {
+    border-radius: 10px;
+    padding: 1rem; }
+
+  /*Promos Destacadas Card*/
+  .col {
+    height: -20px !important;
+    width: 200px !important;
+    margin-top: 20px !important; }
+
+  .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    width: 200px; }
+
+  .card-title {
+    color: #06357a;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px; }
+
+  .card-text {
+    color: black;
+    font-size: 12px;
+    margin-left: -33px;
+    margin-top: -25px;
+    margin-bottom: -30px; }
+
+  .bot {
+    font-size: 10px;
+    margin-left: 100px;
+    margin-bottom: -20px; }
+
+  .row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 24px; }
+  
+  /*Log in, carrito y search*/
+  .form-control {
+    display: block;
+    width: 39%;
+    padding: 0.375rem 0.75rem;
+    font-size: 13px; }
+  .btn {
+    display: block;
+    padding: 0.375rem 0.75rem;
+    font-size: 13px; }
+  .container-fluid{
+    flex-wrap: nowrap !important; }
+  .fas {
+    margin-right: 90px; }
+
+  /*Img Vasos*/
+  .imgVasos {
+    margin-left: 0;
+    margin-top: 15%; }
+  .imge{
+    height: 167px;
+  }
+  
+  /*Img Temperaturas*/
+  .temperaturas {
+    margin-left: 0%;
+    margin-top: 15%; }
+  .imgT{
+    width: 298px;
+  }
+
+  /* Footer*/
+  .pfooter {
+    color: grey;
+    margin-left: -5%;
+    margin-bottom: 0;
+    margin-top: -25px;
+    font-size: 11px; }
+      
+  .fa-instagram {
+    margin-left: 46%;
+    margin-top: 20%; }
+  
+  .fab{
+    font-size: 12px;
+  }
+
+  /* h2 Promos destacadas/Index - Comunidad cervecera/Membresía - Promociones/Contacto*/
+  .destacadas {
+    color: #d39f10;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20%; }
+
+  /* Promos destacadas/Index - Promos */
+  .vw {
+    width: 20vw; }
+  .lol {
+    display: flex;
+    margin-left: 5%; }
+  .parrafo {
+    background-color: black;
+    opacity: 0.6; }
+  .promos {
+    display: flex;
+    justify-content: space-evenly; }
+  .promo {
+    display: inline-block; }
+  .pi {
+    position: relative; }
+  .ye {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 500px 500px 500px;
+    gap: 15px 30px; }
+  .celda1 {
+    grid-column: 1;
+    grid-row: 1; }
+  .celda2 {
+    grid-column: 2;
+    grid-row: 1; }
+  .celda3 {
+    grid-column: 1;
+    grid-row: 2; }
+      
+  .celda4 {
+    grid-column: 1;
+    grid-row: 2; }
+      
+  .celda5 {
+    grid-column: 2;
+    grid-row: 2; }
+      
+  .celda6 {
+    grid-column: 3;
+    grid-row: 2; }
+
+  /* h2/Ubicación - h3/Membresía - h2/Promos - h3/Index */
+  .haches3 {
+    color: cadetblue;
+    margin-top: 150px; }
+
+  /* Index - Ubicación - Membresía - Promos */
+  p {
+    color: wheat;
+    padding: 30px;
+    font-family: 'Quicksand', sans-serif; }
+
+  /* Index - Promo - Contacto - Ubicación - Membresía*/
+  .le {
+    font-family: 'Quicksand', sans-serif; }
+}
+
+
+/* Estilo tablet*/
+@media (min-width: 481px) {
+
+  /* Img lúpulos */
+  .lup {
+    padding: 25px;
+    background: url(../Assets/Img/lupulos.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100rem; }
+
+   /* Img Cacho*/
+  .imgCa {
+    margin-left: 10%;
+    opacity: 0.7; }
+  .link {
+    text-decoration: none; }
+  .img{
+    width: 300px;
+    margin-left: 110px; }
+  
+
+  /* Menú Navegación */
+  ul {
+    margin-left: 18%;
+    margin-top: 2%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 90%; }
+      
+  li {
+    display: inline-block;
+    position: relative;
+    width: 15%; }
+      
+  nav {
+    position: sticky;
+    top: 0; }
+      
+  .a:hover {
+    background-color: cadetblue;
+    color: cornsilk;
+    padding: 5px; }
+      
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold; }
+      
+  .scale:hover {
+    transform: scale(1.1, 1); }
+
+  /*Promos */
+  .coso {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+  span {
+    position: absolute;
+    top: 370px;
+    right: 95px; }
+
+  /* Promos destacadas/Index */
+  .span1 {
+    position: absolute;
+    top: 540px;
+    left: 130px; }
+  .span2 {
+    position: absolute;
+    top: 505px;
+    left: 138px; }
+  .span3 {
+    position: absolute;
+    top: 525px;
+    left: 135px; }
+
+  /* Contacto */
+  form > div {
+    flex-direction: column; }
+      
+  form {
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 17%;
+    padding: 1rem; }
+      
+  .h2 {
+    margin-left: -53%; }
+  
+  /* Membresía */
+  .p {
+    color: #16140f;
+    padding: 1px;
+    font-size: 20px;
+    font-weight: bold; }
+  .form {
+    width: 59%;
+    border-radius: 10px;
+    padding: 1rem;
+  }
+
+  /*Promos Destacadas Card*/
+  .col {
+    height: -20px !important;
+    width: 200px !important;
+    margin-top: 20px !important; }
+
+  .card-title {
+    color: #06357a;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px; }
+
+  .card-text {
+    color: black;
+    font-size: 12px;
+    margin-left: -33px;
+    margin-top: -25px;
+    margin-bottom: -30px; }
+
+  .bot {
+    font-size: 10px;
+    margin-left: 100px;
+    margin-bottom: -20px; }
+
+  .row {
+    display: flex;
+    justify-content: space-evenly; }
+  
+  /*Log in, carrito y search*/
+  .fas {
+    margin-left: -150px; }
+  .container-fluid{
+    width: 91%;
+    margin-left: 36px;
+    justify-content: initial; }
+  form {
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 17%;
+    padding: 1rem;  }
+
+  /*Img Vasos*/
+  .imgVasos {
+    margin-left: 11%;
+    margin-top: 10%; }
+  .imge{
+    height: 321px;
+  }
+  
+  /*Img Temperaturas*/
+  .temperaturas {
+    margin-left: 10.3%;
+    margin-top: 10%; }
+  .imgT{
+    width: 554px; }
+  
+
+  /* Footer*/
+  .pfooter {
+    color: grey;
+    margin-left: 30%;
+    margin-bottom: 0; }
+      
+  .fa-instagram {
+    margin-left: 48%;
+    margin-top: 20%; }
+
+  /* h2 Promos destacadas/Index - Comunidad cervecera/Membresía - Promociones/Contacto*/
+  .destacadas {
+    color: #d39f10;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20%; }
+
+  /* Promos destacadas/Index - Promos */
+  .card {
+    position: relative;
+    display: inline-block;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem; }
+  .vw {
+    width: 20vw; }
+  .lol {
+    display: flex;
+    margin-left: 5%; }
+  .parrafo {
+    background-color: black;
+    opacity: 0.6; }
+  .promos {
+    display: flex;
+    justify-content: space-evenly; }
+  .promo {
+    display: inline-block; }
+  .pi {
+    position: relative; }
+  .ye {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 500px 500px 500px;
+    gap: 15px 30px; }
+  .celda1 {
+    grid-column: 1;
+    grid-row: 1; }
+  .celda2 {
+    grid-column: 2;
+    grid-row: 1; }
+  .celda3 {
+    grid-column: 1;
+    grid-row: 2; }
+      
+  .celda4 {
+    grid-column: 1;
+    grid-row: 2; }
+      
+  .celda5 {
+    grid-column: 2;
+    grid-row: 2; }
+      
+  .celda6 {
+    grid-column: 3;
+    grid-row: 2; }
+
+  /* h2/Ubicación - h3/Membresía - h2/Promos - h3/Index */
+  .haches3 {
+    color: cadetblue;
+    margin-top: 150px; }
+
+  /* Index - Ubicación - Membresía - Promos */
+  p {
+    color: wheat;
+    padding: 30px;
+    font-family: 'Quicksand', sans-serif; }
+
+  /* Index - Promo - Contacto - Ubicación - Membresía*/
+  .le {
+    font-family: 'Quicksand', sans-serif; }
+}
+
+
+
+/* Estilo desktop*/
+@media (min-width: 1024px) {
+
+  /* Img lúpulos */
+  .lup {
+    padding: 25px;
+    background: url(../Assets/Img/lupulos.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100rem; }
+
+  /* Img Cacho. SE OPACITY CUANDO HAGO SCROLL PERO COMO SE HACE CON JS NO SUCEDERÁ*/
+  .imgCa {
+    margin-left: 10%;
+    opacity: 0.7; }
+
+  .link {
+    text-decoration: none; }
+  .img{
+    width: 530px;}
+
+  /* Menú Navegación */
+  ul {
+    margin-left: 22%;
+    margin-top: 2%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 102%; }
+
+  li {
+    display: inline-block;
+    position: relative;
+    width: 15%; }
+
+  nav {
+    position: sticky;
+    top: 0; }
+
+  .a:hover {
+    background-color: cadetblue;
+    color: cornsilk;
+    padding: 5px; }
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold; }
+
+  .scale:hover {
+    transform: scale(1.1, 1); }
+
+  /*Promos */
+  .coso {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+
+  span {
+    position: absolute;
+    top: 370px;
+    right: 95px; }
+
+  /* Promos destacadas/Index */
+  .span1 {
+    position: absolute;
+    top: 385px;
+    right: 95px; }
+
+  .span2 {
+    position: absolute;
+    top: 200px;
+    right: 70px; }
+
+  /* Contacto */
+  form > div {
+    flex-direction: column; }
+
+  form {
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 17%;
+    padding: 1rem; }
+
+  .h2 {
+    margin-left: -53%; }
+
+  /* Membresía */
+  .p {
+    color: #16140f;
+    padding: 1px;
+    font-size: 20px;
+    font-weight: bold; }
+
+  /*Promos Destacadas Card*/
+  .col {
+    height: -20px !important;
+    width: 200px !important;
+    margin-top: 20px !important; }
+
+  .card-title {
+    color: #06357a;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px; }
+
+  .card-text {
+    color: black;
+    font-size: 12px;
+    margin-left: -33px;
+    margin-top: -25px;
+    margin-bottom: -30px; }
+
+  .bot {
+    font-size: 10px;
+    margin-left: 100px;
+    margin-bottom: -20px; }
+
+  .row {
+    display: flex;
+    justify-content: space-evenly; }
+  
+
+  /*Log in, carrito y search*/
+  .fas {
+    margin-left: -260px; }
+  form {
+    width: 32%;
+    border-radius: 10px;
+    padding: 1rem; }
+
+  /*Img Vasos*/
+  .imgVasos {
+    margin-left: 28%;
+    margin-top: 10%; }
+
+  /*Img Temperaturas*/
+  .temperaturas {
+    margin-left: 28%;
+    margin-top: 10%; }
+
+  /*Footer*/
+  .pfooter {
+    color: grey;
+    margin-left: 35%;
+    margin-bottom: 0; }
+
+  .fa-instagram {
+    margin-left: 48%;
+    margin-top: 20%; }
+
+  /* h2 Promos destacadas/Index - Comunidad cervecera/Membresía - Promociones/Contacto*/
+  .destacadas {
+    color: #d39f10;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20%; }
+
+  /* Promos destacadas/Index - Promos */
+  .vw {
+    width: 20vw; }
+
+  .lol {
+    display: flex;
+    margin-left: 5%; }
+
+  .parrafo {
+    background-color: black;
+    opacity: 0.6; }
+
+  .promos {
+    display: flex;
+    justify-content: space-evenly; }
+
+  .promo {
+    display: inline-block; }
+
+  .pi {
+    position: relative; }
+
+  .ye {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 500px 500px 500px;
+    gap: 15px 30px; }
+
+  .celda1 {
+    grid-column: 1;
+    grid-row: 1; }
+
+  .celda2 {
+    grid-column: 2;
+    grid-row: 1; }
+
+  .celda3 {
+    grid-column: 3;
+    grid-row: 1; }
+
+  .celda4 {
+    grid-column: 1;
+    grid-row: 2; }
+
+  .celda5 {
+    grid-column: 2;
+    grid-row: 2; }
+
+  .celda6 {
+    grid-column: 3;
+    grid-row: 2; }
+
+  /* h2/Ubicación - h3/Membresía - h2/Promos - h3/Index */
+  .haches3 {
+    color: cadetblue;
+    margin-top: 150px; }
+
+  /* Index - Ubicación - Membresía - Promos */
+  p {
+    color: wheat;
+    padding: 30px;
+    font-family: 'Quicksand', sans-serif; }
+
+  /* Index - Promo - Contacto - Ubicación - Membresía*/
+  .le {
+    font-family: 'Quicksand', sans-serif; }
+}
+
+
+
+
+
+
+
+
+

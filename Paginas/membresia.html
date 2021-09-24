@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cacho | Membresía</title>
+        <link rel="icon" type="image/png" href="../Assets/Img/Cacho.png">
+        <link rel="stylesheet" href="../Assets/Boostrap/bootstrap.css">
+        <link rel="stylesheet" href="../CSS/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <meta name="description" content="Página web de venta de cervezas multimarcas.">
+        <meta name="keywords" content="Cerveza, Birra, Promociones, Almacén, Corona, Stella Artoise, Descuentos, Pack, Patagonia">
+    </head>
+
+    <!--Log in, carrito y search-->    
+    <nav class="navbar bg-light">
+        <div class="container-fluid">
+          <i class="far fa-user-circle"></i>
+          <i class="fas fa-shopping-cart"></i>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+    </nav>
+
+    <body class="lup">
+        
+        <!--Img Cacho-->
+        <nav>
+            <ul  class="imgCa">
+                <li><a title="" href="../index.html"><img class="img" src="../Assets/Img/El-Cacho.png" alt="Logo" /></a></li>
+            </ul>
+        </nav>
+
+        <!--Menú-->
+        <nav class="scale">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../Paginas/promos.html">Promos</a></li>
+                <li><a href="../Paginas/ubicacion.html">Ubicacion</a></li>
+                <li><a href="../Paginas/contacto.html">Contacto</a></li>
+                <li><a href="../Paginas/membresia.html">Membresia</a></li>         
+            </ul>       
+        </nav>  
+
+        <!--Preguntas frecuentes-->
+        <main>
+            <h2 class="destacadas">Comunidad Cervecera</h2>        
+
+            <h2 class="haches3 le">¿Cómo funciona?</h2>
+            <p class="p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit voluptates molestias nesciunt iste perferendis deleniti officia ea in? Cum praesentium ratione quibusdam similique doloribus neque quasi consectetur eum autem omnis!</p>
+
+            <h2 class="haches3 le">¿Cuánto sale?</h2>
+            <p class="p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque debitis unde, quas illo exercitationem incidunt, odit repudiandae repellendus vero tenetur eligendi aspernatur? Magni id, reiciendis ducimus exercitationem voluptatibus nostrum possimus.</p>
+
+            <h2 class="haches3 le">¿Cuándo lo envían?</h2>
+            <p class="p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum accusantium fugit numquam eum dignissimos odio qui saepe non officiis, est dolor voluptatem molestiae quia voluptate sint eius, hic cumque eveniet.</p>
+        </main>
+
+        <form action="procesar.php" method="POST">                
+            <label class="forme" for="¿Desea suscribirse a nuestro news letter?">¿Desea suscribirse a nuestro news letter?</label>
+            <input type="checkbox" name="Si" value="1" />
+            <input type="submit" name="Enviar">
+        </form> 
+        
+        <!--Footer-->
+        <footer>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-whatsapp"></i>
+            <p class="pfooter">@ Copyright 2021 Cacho Almacén de birras.</p>
+        </footer>
+
+        <script src="../Cacho/Assets/Js/bootstrap.js"></script>
+    </body>
+</html>
